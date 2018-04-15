@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid SeaShell;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.mission {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.mission-section {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.mission h4 {
+    margin-top: 25px;
+}
+
+.title {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.title h2 {
+    margin-bottom: 25px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 700px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.featured-images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    flex-basis: 1200px;
+}
+
+.featured-images img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.featured-images h3 {
+    margin-bottom: 20px;
+}
+
+.locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
+
+#location-title {
+    position: relative;
+    top: 40px;
+}
+
+address {
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.downtown, .bayside, .oakdale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+}
